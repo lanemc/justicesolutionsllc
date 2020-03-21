@@ -77,7 +77,7 @@ section {
 
 .card {
   position: relative;
-  padding: 0;
+  padding: 30px;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -214,8 +214,7 @@ a:hover {
   Parallax Styling
   ================================================== */
 .block {
-  color: #fff;
-  height: 490px;
+  height: 600px;
   overflow: hidden;
   padding-top: 85px;
 }
@@ -237,6 +236,16 @@ a:hover {
   padding-bottom: 45px;
 }
 
+.features li {
+  list-style: none;
+  line-height: 1.2em;
+  margin-top: 8px;
+}
+
+.features ul {
+  padding: 0;
+}
+
 section.features {
   padding-top: 0;
 }
@@ -252,13 +261,13 @@ section.features {
   padding-bottom: 45px;
 }
 
+.oi-file {
+  left: 2px;
+}
+
 .feature-col > div > div {
   display: table-cell;
   vertical-align: middle;
-}
-
-.feature-col > div > div:last-child {
-  padding-left: 20px;
 }
 
 .feature-col .feature-icon {
